@@ -1,0 +1,39 @@
+{
+  "applications": ["BillGates"],
+  "changelogDate": "20230531100937",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "gestionnaire",
+  "fields": [
+    {
+      "fieldName": "nomGestionnaire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postGestionnaire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroGestionnaire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailGestionnaire",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Gestionnaire",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "gestionnaire",
+      "relationshipName": "reservation",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,27 @@
+{
+  "applications": ["BillGates"],
+  "changelogDate": "20230531101037",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "options",
+  "fields": [
+    {
+      "fieldName": "nomOptions",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Options",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "options",
+      "relationshipName": "reservation",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

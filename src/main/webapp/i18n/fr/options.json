@@ -1,0 +1,25 @@
+{
+  "billGatesApp": {
+    "options": {
+      "home": {
+        "title": "Options",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Options",
+        "createOrEditLabel": "Créer ou éditer un Options",
+        "notFound": "Aucun Options trouvé"
+      },
+      "created": "Un nouveau Options a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Options avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Options avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Options {{ id }} ?"
+      },
+      "detail": {
+        "title": "Options"
+      },
+      "id": "ID",
+      "nomOptions": "Nom Options",
+      "reservation": "Reservation"
+    }
+  }
+}

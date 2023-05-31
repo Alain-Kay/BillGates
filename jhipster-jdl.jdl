@@ -1,0 +1,59 @@
+
+application {
+  config {
+    baseName BillGates,
+    applicationType monolith,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react,
+    nativeLanguage fr,
+    languages [en,fr]
+  }
+  entities *
+}
+
+entity Chambre {
+	numeroChambre String,
+    prixChambre Double,
+    disponibilite Disponibilite,
+    images String
+    
+}
+
+entity Reservation {
+	numeroReservation Integer,
+    heureDebut String,
+    heureFin String,
+    
+}
+entity Client {
+	nomClient String,
+    postNom String,
+    numeroClient String,
+    emailClient String
+}
+entity Gestionnaire {
+	nomGestionnaire String,
+    postGestionnaire String,
+    numeroGestionnaire String,
+    emailGestionnaire String
+}
+
+entity Options {
+	nomOptions String
+    
+}
+
+enum Disponibilite{
+	DISPONIBLE, INDISPONIBLE
+}
+
+relationship OneToMany{
+	Client to Chambre
+    Chambre to Reservation
+    Options to Reservation
+    Gestionnaire to Reservation 
+}
+
+    

@@ -1,0 +1,46 @@
+{
+  "applications": ["BillGates"],
+  "changelogDate": "20230531100637",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "chambre",
+  "fields": [
+    {
+      "fieldName": "numeroChambre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prixChambre",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "disponibilite",
+      "fieldType": "Disponibilite",
+      "fieldValues": "DISPONIBLE,INDISPONIBLE"
+    },
+    {
+      "fieldName": "images",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Chambre",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "chambre",
+      "relationshipName": "reservation",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "chambre",
+      "relationshipName": "client",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

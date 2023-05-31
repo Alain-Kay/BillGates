@@ -1,0 +1,28 @@
+{
+  "billGatesApp": {
+    "gestionnaire": {
+      "home": {
+        "title": "Gestionnaires",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Gestionnaire",
+        "createOrEditLabel": "Create or edit a Gestionnaire",
+        "notFound": "No Gestionnaires found"
+      },
+      "created": "A new Gestionnaire is created with identifier {{ param }}",
+      "updated": "A Gestionnaire is updated with identifier {{ param }}",
+      "deleted": "A Gestionnaire is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Gestionnaire {{ id }}?"
+      },
+      "detail": {
+        "title": "Gestionnaire"
+      },
+      "id": "ID",
+      "nomGestionnaire": "Nom Gestionnaire",
+      "postGestionnaire": "Post Gestionnaire",
+      "numeroGestionnaire": "Numero Gestionnaire",
+      "emailGestionnaire": "Email Gestionnaire",
+      "reservation": "Reservation"
+    }
+  }
+}

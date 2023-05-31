@@ -1,0 +1,39 @@
+{
+  "applications": ["BillGates"],
+  "changelogDate": "20230531100837",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "client",
+  "fields": [
+    {
+      "fieldName": "nomClient",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postNom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroClient",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailClient",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Client",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "chambre",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "chambre",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

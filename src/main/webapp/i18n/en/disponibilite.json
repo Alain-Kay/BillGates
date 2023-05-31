@@ -1,0 +1,9 @@
+{
+  "billGatesApp": {
+    "Disponibilite": {
+      "null": "",
+      "DISPONIBLE": "DISPONIBLE",
+      "INDISPONIBLE": "INDISPONIBLE"
+    }
+  }
+}
